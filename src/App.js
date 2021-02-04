@@ -1,10 +1,14 @@
 import React from "react";
-import AppuseStateHook from "./components/AppuseStateHook";
+import AppuseEffectHook2 from "./components/AppuseEffectHook2";
+// import AppuseEffectHook from "./components/AppuseEffectHook";
+// import AppuseStateHook from "./components/AppuseStateHook";
 
 function App(){
     return(
         <div>
-            <AppuseStateHook />
+            {/* <AppuseStateHook /> */}
+            {/* <AppuseEffectHook /> */}
+            <AppuseEffectHook2 />
         </div>
     )
 }
